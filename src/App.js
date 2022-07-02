@@ -1,9 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
 import NavigationBar from "./Pages/Shared/NavigationBar/NavigationBar";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home";
-import Task from "./Pages/Task/Task";
+import Calender from "./Pages/Calender/Calender";
+import Tasks from "./Pages/ToDo/Tasks/Tasks";
+import Completed from "./Pages/ToDo/Completed/Completed";
+import Footer from "./Pages/Shared/Footer/Footer";
 
 function App() {
   return (
@@ -11,8 +14,11 @@ function App() {
       <NavigationBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="task" element={<Task />} />
+        <Route path="tasks" element={<Tasks />} />
+        <Route path="completed" element={<Completed />} />
+        <Route path="calender" element={<Calender />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
