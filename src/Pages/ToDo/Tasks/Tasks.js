@@ -35,7 +35,7 @@ const Tasks = () => {
     },
   ];
   return (
-    <div className="mt-14  px-10">
+    <div className="my-14  px-10">
       <h1 className="text-center text-3xl text-black font-bold font-sans antialiased">
         this is to do page
       </h1>

@@ -36,7 +36,7 @@ const NavigationBar = () => {
     </>
   );
   return (
-    <div class="navbar bg-neutral text-neutral-content drop-shadow-lg px-10 sticky top-0">
+    <div class="navbar bg-neutral text-neutral-content drop-shadow-lg px-10">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
